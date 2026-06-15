@@ -13,6 +13,8 @@ venv/
 env/
 
 # Local data and generated outputs
+data/raw/
+reference_paper/
 tap_raw_accel_*.csv
 *.log
 outputs/
@@ -42,4 +44,3 @@ spike_android/app/build/
 build/
 dist/
 *.spec~
-

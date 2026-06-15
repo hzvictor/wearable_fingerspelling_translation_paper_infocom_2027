@@ -1,15 +1,10 @@
 \documentclass[10pt,conference,letterpaper]{IEEEtran}
 
-\usepackage{cite}
-\usepackage{amsmath,amssymb,amsfonts}
-\usepackage{graphicx}
-\usepackage{textcomp}
-\usepackage{xcolor}
-\usepackage{booktabs}
+\input{macros}
 
 \begin{document}
 
-\title{TODO: INFOCOM 2027 Paper Title}
+\title{Wearable Fingerspelling Translation with Ring-Scale Inertial Sensing}
 
 % INFOCOM main-conference submissions are double blind.
 % Do not include author names, affiliations, acknowledgments, or identifying PDF metadata.
@@ -17,25 +12,25 @@
 
 \maketitle
 
-\begin{abstract}
 \input{sections/abstract}
-\end{abstract}
 
 \begin{IEEEkeywords}
-TODO, mobile sensing, wearable sensing, edge computing
+wearable sensing, fingerspelling recognition, inertial sensing, sign language recognition, mobile systems
 \end{IEEEkeywords}
 
 \input{sections/introduction}
 \input{sections/background}
-\input{sections/design}
+\input{sections/system}
+\input{sections/data}
+\input{sections/model}
 \input{sections/implementation}
 \input{sections/evaluation}
 \input{sections/discussion}
+\input{sections/related_work}
 \input{sections/conclusion}
 
-\begin{thebibliography}{00}
-\bibitem{placeholder}
-TODO, ``Replace this placeholder with real references in IEEE style,'' 2027.
-\end{thebibliography}
+% Enable BibTeX once references are added and IEEEtran.bst is available:
+% \bibliographystyle{IEEEtran}
+% \bibliography{refs/references}
 
 \end{document}

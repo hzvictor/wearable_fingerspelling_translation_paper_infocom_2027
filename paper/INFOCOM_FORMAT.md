@@ -14,6 +14,7 @@ Working format assumptions:
 - Use standard IEEE Transactions/IEEEtran conference format.
 - LaTeX class: `IEEEtran.cls` version 1.8, unmodified.
 - Preamble required by INFOCOM 2026: `\documentclass[10pt,conference,letterpaper]{IEEEtran}`.
+- The editable paper entry point is `main.tex`; the official IEEE sample is preserved under `template/`.
 - Use 10-point Times, two columns, US letter, and default IEEEtran margins and line spacing.
 - Do not use packages or commands that override margins, font size, line spacing, column separation, caption spacing, or section spacing.
 - Submission manuscript is double blind: no author names, affiliations, acknowledgments, identifying PDF metadata, or self-identifying links.

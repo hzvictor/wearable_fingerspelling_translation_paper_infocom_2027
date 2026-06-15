@@ -28,13 +28,13 @@ protocols/             builtin/*.json (alphabet/digits/confusion/all_words) + lo
 sync/                  firebase (urllib, no-login Firestore) + syncer (bg thread)
 ui/                    router, theme, widgets + screens: home/device/subjects/
                        session_setup/collection(+canvas)/sessions
-assets/asl_reference/  A–Z, 0–9 handshape images
 ```
 
 Key design points:
 - **CoreBluetooth runs on the main thread**, pumped from Tk via `RunLoopPump`
   (`root.after` ticks `NSRunLoop.runUntilDate_`). No background BLE thread.
-- **Collection canvas is native Tk + Pillow** (no matplotlib).
+- **Collection canvas is native Tk + Pillow** (no matplotlib). If optional
+  reference handshape images are absent, the UI falls back to letter prompts.
 - **Local-first**: every accepted trial is written atomically to
   `~/Library/Application Support/ASLCollector/sessions/{id}/trial_NNN.json`
   in the unified word-shaped schema (compatible with
@@ -54,13 +54,5 @@ Firestore collections: `subjects`, `sessions`, `trials` (each trial doc carries
 gzip+base64 `raw_gz`). Open ("test mode → `if true`") rules; the public Web
 apiKey is embedded. Free Spark tier is sufficient (~70 KB/trial compressed).
 
-## Packaging to a `.app`
-
-See `collector.spec`. Build (pin the build venv to arm64 / Python 3.11–3.12 if
-pyobjc/PyInstaller complain on 3.9):
-
-```bash
-pyinstaller collector.spec
-# distribute "dist/ASL Collector.app"; on a fresh Mac, if Gatekeeper blocks it:
-xattr -dr com.apple.quarantine "dist/ASL Collector.app"
-```
+Packaging files were removed from this paper repository. Recreate them in a
+separate app-release repository if the collector needs to be distributed.

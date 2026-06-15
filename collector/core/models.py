@@ -1,4 +1,4 @@
-"""Data models — user-centric, mirroring docs/product_spec.md (simplified for Mac).
+"""Data models for the macOS collector prototype.
 
 Subject -> Session -> Trial, plus Protocol (word/gesture lists of TrialDef).
 Dataclasses are JSON-serializable via asdict(); the store layer handles disk I/O.
