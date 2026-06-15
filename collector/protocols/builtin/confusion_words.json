@@ -1,0 +1,249 @@
+{
+  "id": "confusion_words",
+  "name": "Confusion-pair Words",
+  "type": "word",
+  "builtin": true,
+  "description": "Confusable letter sequences (A/S/T/M/N etc.).",
+  "trials": [
+    {
+      "prompt": "CAT",
+      "letters": [
+        "C",
+        "A",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "A/S/T/M/N",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "SAT",
+      "letters": [
+        "S",
+        "A",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "A/S/T/M/N",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "MAT",
+      "letters": [
+        "M",
+        "A",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "A/S/T/M/N",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "NAT",
+      "letters": [
+        "N",
+        "A",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "A/S/T/M/N",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "SET",
+      "letters": [
+        "S",
+        "E",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "S/E",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "NET",
+      "letters": [
+        "N",
+        "E",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "N/E",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "MET",
+      "letters": [
+        "M",
+        "E",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "M/E",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "BIT",
+      "letters": [
+        "B",
+        "I",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "B/F",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "FIT",
+      "letters": [
+        "F",
+        "I",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "B/F",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "HIT",
+      "letters": [
+        "H",
+        "I",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "H/K",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "KIT",
+      "letters": [
+        "K",
+        "I",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "H/K",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "DIG",
+      "letters": [
+        "D",
+        "I",
+        "G"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "D/G",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "GIG",
+      "letters": [
+        "G",
+        "I",
+        "G"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "D/G",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "RUG",
+      "letters": [
+        "R",
+        "U",
+        "G"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "U/V/R",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "VAN",
+      "letters": [
+        "V",
+        "A",
+        "N"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "U/V/R",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "PIG",
+      "letters": [
+        "P",
+        "I",
+        "G"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "P/K/Q",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "CUP",
+      "letters": [
+        "C",
+        "U",
+        "P"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "C/O",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "COD",
+      "letters": [
+        "C",
+        "O",
+        "D"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "C/O",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "WET",
+      "letters": [
+        "W",
+        "E",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "W/V/U",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "YAM",
+      "letters": [
+        "Y",
+        "A",
+        "M"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "Y/I",
+      "duration_ms": 0
+    }
+  ]
+}

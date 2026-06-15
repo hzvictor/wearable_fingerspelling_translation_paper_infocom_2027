@@ -1,0 +1,17 @@
+# ASL Fingerspelling Collector — runtime deps.
+#
+# The app targets macOS system Python 3.9 (/usr/bin/python3), which already
+# ships tkinter + pyobjc (CoreBluetooth/Foundation). On that interpreter the
+# ONLY third-party runtime dep is Pillow. The Firebase sync uses stdlib urllib
+# (no requests). Audio uses the system `say`/`afplay` binaries.
+#
+# IMPORTANT (Apple Silicon): install Pillow for the SAME arch you run Python as
+# (arm64 natively). If you hit "incompatible architecture", reinstall with:
+#     arch -arm64 /usr/bin/python3 -m pip install --user --force-reinstall Pillow
+#
+# Build-only (Phase 6 packaging):
+#     pyinstaller
+
+Pillow>=9.0
+customtkinter>=5.2     # modern themed UI; install: arch -arm64 /usr/bin/python3 -m pip install --user customtkinter
+# pyinstaller   # uncomment for building the .app

@@ -1,0 +1,109 @@
+{
+  "id": "asl_digits",
+  "name": "ASL Digits (0–9)",
+  "type": "gesture",
+  "builtin": true,
+  "description": "10 single-digit handshapes.",
+  "trials": [
+    {
+      "prompt": "0",
+      "letters": [
+        "0"
+      ],
+      "group": "digits",
+      "hint": "O-shape with fingers and thumb",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "1",
+      "letters": [
+        "1"
+      ],
+      "group": "digits",
+      "hint": "Index finger up, others in fist",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "2",
+      "letters": [
+        "2"
+      ],
+      "group": "digits",
+      "hint": "Index and middle finger up spread (like V)",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "3",
+      "letters": [
+        "3"
+      ],
+      "group": "digits",
+      "hint": "Thumb, index, and middle finger up",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "4",
+      "letters": [
+        "4"
+      ],
+      "group": "digits",
+      "hint": "Four fingers up, thumb tucked",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "5",
+      "letters": [
+        "5"
+      ],
+      "group": "digits",
+      "hint": "All five fingers spread open",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "6",
+      "letters": [
+        "6"
+      ],
+      "group": "digits",
+      "hint": "Thumb and pinky touch, other fingers up",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "7",
+      "letters": [
+        "7"
+      ],
+      "group": "digits",
+      "hint": "Thumb and ring finger touch, other fingers up",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "8",
+      "letters": [
+        "8"
+      ],
+      "group": "digits",
+      "hint": "Thumb and middle finger touch, other fingers up",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "9",
+      "letters": [
+        "9"
+      ],
+      "group": "digits",
+      "hint": "Thumb and index finger touch, other fingers up",
+      "confusion_test": null,
+      "duration_ms": 0
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "id": "confusion_words",
+  "name": "Confusion-pair Words",
+  "type": "word",
+  "builtin": true,
+  "description": "Words designed to test ASL hand-shape minimal pairs (A/S/T/M/N, B/F, H/K, \u2026).",
+  "trials": [
+    {
+      "id": "word_cat",
+      "orderIndex": 0,
+      "prompt": "CAT",
+      "expectedLetters": "CAT",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "A/S/T/M/N",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_sat",
+      "orderIndex": 1,
+      "prompt": "SAT",
+      "expectedLetters": "SAT",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "A/S/T/M/N",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_mat",
+      "orderIndex": 2,
+      "prompt": "MAT",
+      "expectedLetters": "MAT",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "A/S/T/M/N",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_nat",
+      "orderIndex": 3,
+      "prompt": "NAT",
+      "expectedLetters": "NAT",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "A/S/T/M/N",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_set",
+      "orderIndex": 4,
+      "prompt": "SET",
+      "expectedLetters": "SET",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "S/E",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_net",
+      "orderIndex": 5,
+      "prompt": "NET",
+      "expectedLetters": "NET",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "N/E",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_met",
+      "orderIndex": 6,
+      "prompt": "MET",
+      "expectedLetters": "MET",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "M/E",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_bit",
+      "orderIndex": 7,
+      "prompt": "BIT",
+      "expectedLetters": "BIT",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "B/F",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_fit",
+      "orderIndex": 8,
+      "prompt": "FIT",
+      "expectedLetters": "FIT",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "B/F",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_hit",
+      "orderIndex": 9,
+      "prompt": "HIT",
+      "expectedLetters": "HIT",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "H/K",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_kit",
+      "orderIndex": 10,
+      "prompt": "KIT",
+      "expectedLetters": "KIT",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "H/K",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_dig",
+      "orderIndex": 11,
+      "prompt": "DIG",
+      "expectedLetters": "DIG",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "D/G",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_gig",
+      "orderIndex": 12,
+      "prompt": "GIG",
+      "expectedLetters": "GIG",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "D/G",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_rug",
+      "orderIndex": 13,
+      "prompt": "RUG",
+      "expectedLetters": "RUG",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "U/V/R",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_van",
+      "orderIndex": 14,
+      "prompt": "VAN",
+      "expectedLetters": "VAN",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "U/V/R",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_pig",
+      "orderIndex": 15,
+      "prompt": "PIG",
+      "expectedLetters": "PIG",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "P/K/Q",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_cup",
+      "orderIndex": 16,
+      "prompt": "CUP",
+      "expectedLetters": "CUP",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "C/O",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_cod",
+      "orderIndex": 17,
+      "prompt": "COD",
+      "expectedLetters": "COD",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "C/O",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_wet",
+      "orderIndex": 18,
+      "prompt": "WET",
+      "expectedLetters": "WET",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "W/V/U",
+      "estimatedDurationMs": 4000
+    },
+    {
+      "id": "word_yam",
+      "orderIndex": 19,
+      "prompt": "YAM",
+      "expectedLetters": "YAM",
+      "hint": null,
+      "group": "confusion",
+      "confusionTest": "Y/I",
+      "estimatedDurationMs": 4000
+    }
+  ]
+}

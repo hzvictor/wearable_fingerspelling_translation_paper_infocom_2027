@@ -1,0 +1,1878 @@
+{
+  "id": "all_words",
+  "name": "All Words",
+  "type": "word",
+  "builtin": true,
+  "description": "Full fingerspelling word set (confusion / coarticulation / common / medium / long / phone / url / mixed / phrase).",
+  "trials": [
+    {
+      "prompt": "CAT",
+      "letters": [
+        "C",
+        "A",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "A/S/T/M/N",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "SAT",
+      "letters": [
+        "S",
+        "A",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "A/S/T/M/N",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "MAT",
+      "letters": [
+        "M",
+        "A",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "A/S/T/M/N",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "NAT",
+      "letters": [
+        "N",
+        "A",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "A/S/T/M/N",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "SET",
+      "letters": [
+        "S",
+        "E",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "S/E",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "NET",
+      "letters": [
+        "N",
+        "E",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "N/E",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "MET",
+      "letters": [
+        "M",
+        "E",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "M/E",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "BIT",
+      "letters": [
+        "B",
+        "I",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "B/F",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "FIT",
+      "letters": [
+        "F",
+        "I",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "B/F",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "HIT",
+      "letters": [
+        "H",
+        "I",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "H/K",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "KIT",
+      "letters": [
+        "K",
+        "I",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "H/K",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "DIG",
+      "letters": [
+        "D",
+        "I",
+        "G"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "D/G",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "GIG",
+      "letters": [
+        "G",
+        "I",
+        "G"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "D/G",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "RUG",
+      "letters": [
+        "R",
+        "U",
+        "G"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "U/V/R",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "VAN",
+      "letters": [
+        "V",
+        "A",
+        "N"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "U/V/R",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "PIG",
+      "letters": [
+        "P",
+        "I",
+        "G"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "P/K/Q",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "CUP",
+      "letters": [
+        "C",
+        "U",
+        "P"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "C/O",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "COD",
+      "letters": [
+        "C",
+        "O",
+        "D"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "C/O",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "WET",
+      "letters": [
+        "W",
+        "E",
+        "T"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "W/V/U",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "YAM",
+      "letters": [
+        "Y",
+        "A",
+        "M"
+      ],
+      "group": "confusion",
+      "hint": "",
+      "confusion_test": "Y/I",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "STEM",
+      "letters": [
+        "S",
+        "T",
+        "E",
+        "M"
+      ],
+      "group": "coarticulation",
+      "hint": "",
+      "confusion_test": "S-T-E-M",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "AMEN",
+      "letters": [
+        "A",
+        "M",
+        "E",
+        "N"
+      ],
+      "group": "coarticulation",
+      "hint": "",
+      "confusion_test": "A-M-E-N",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "MEAN",
+      "letters": [
+        "M",
+        "E",
+        "A",
+        "N"
+      ],
+      "group": "coarticulation",
+      "hint": "",
+      "confusion_test": "M-E-A-N",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "NEST",
+      "letters": [
+        "N",
+        "E",
+        "S",
+        "T"
+      ],
+      "group": "coarticulation",
+      "hint": "",
+      "confusion_test": "N-E-S-T",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "TENS",
+      "letters": [
+        "T",
+        "E",
+        "N",
+        "S"
+      ],
+      "group": "coarticulation",
+      "hint": "",
+      "confusion_test": "T-E-N-S",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "DESK",
+      "letters": [
+        "D",
+        "E",
+        "S",
+        "K"
+      ],
+      "group": "coarticulation",
+      "hint": "",
+      "confusion_test": "D-E-S-K",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "KEPT",
+      "letters": [
+        "K",
+        "E",
+        "P",
+        "T"
+      ],
+      "group": "coarticulation",
+      "hint": "",
+      "confusion_test": "K-E-P-T",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "GRIP",
+      "letters": [
+        "G",
+        "R",
+        "I",
+        "P"
+      ],
+      "group": "coarticulation",
+      "hint": "",
+      "confusion_test": "G-R-I-P",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "VERB",
+      "letters": [
+        "V",
+        "E",
+        "R",
+        "B"
+      ],
+      "group": "coarticulation",
+      "hint": "",
+      "confusion_test": "V-E-R-B",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "HUNT",
+      "letters": [
+        "H",
+        "U",
+        "N",
+        "T"
+      ],
+      "group": "coarticulation",
+      "hint": "",
+      "confusion_test": "H-U-N-T",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "DOVE",
+      "letters": [
+        "D",
+        "O",
+        "V",
+        "E"
+      ],
+      "group": "coarticulation",
+      "hint": "",
+      "confusion_test": "D-O-V-E",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "QUIP",
+      "letters": [
+        "Q",
+        "U",
+        "I",
+        "P"
+      ],
+      "group": "coarticulation",
+      "hint": "",
+      "confusion_test": "Q-U-I-P",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "BALL",
+      "letters": [
+        "B",
+        "A",
+        "L",
+        "L"
+      ],
+      "group": "repeated",
+      "hint": "",
+      "confusion_test": "L-L",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "SEEM",
+      "letters": [
+        "S",
+        "E",
+        "E",
+        "M"
+      ],
+      "group": "repeated",
+      "hint": "",
+      "confusion_test": "E-E",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "BOOK",
+      "letters": [
+        "B",
+        "O",
+        "O",
+        "K"
+      ],
+      "group": "repeated",
+      "hint": "",
+      "confusion_test": "O-O",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "NOON",
+      "letters": [
+        "N",
+        "O",
+        "O",
+        "N"
+      ],
+      "group": "repeated",
+      "hint": "",
+      "confusion_test": "O-O,N-N",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "FELL",
+      "letters": [
+        "F",
+        "E",
+        "L",
+        "L"
+      ],
+      "group": "repeated",
+      "hint": "",
+      "confusion_test": "L-L",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "BUZZ",
+      "letters": [
+        "B",
+        "U",
+        "Z",
+        "Z"
+      ],
+      "group": "repeated",
+      "hint": "",
+      "confusion_test": "Z-Z",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "TELL",
+      "letters": [
+        "T",
+        "E",
+        "L",
+        "L"
+      ],
+      "group": "repeated",
+      "hint": "",
+      "confusion_test": "L-L",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "MISS",
+      "letters": [
+        "M",
+        "I",
+        "S",
+        "S"
+      ],
+      "group": "repeated",
+      "hint": "",
+      "confusion_test": "S-S",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "KEEN",
+      "letters": [
+        "K",
+        "E",
+        "E",
+        "N"
+      ],
+      "group": "repeated",
+      "hint": "",
+      "confusion_test": "E-E",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "BEEN",
+      "letters": [
+        "B",
+        "E",
+        "E",
+        "N"
+      ],
+      "group": "repeated",
+      "hint": "",
+      "confusion_test": "E-E",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "JAM",
+      "letters": [
+        "J",
+        "A",
+        "M"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "ZIP",
+      "letters": [
+        "Z",
+        "I",
+        "P"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "FOX",
+      "letters": [
+        "F",
+        "O",
+        "X"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "BOX",
+      "letters": [
+        "B",
+        "O",
+        "X"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "HAT",
+      "letters": [
+        "H",
+        "A",
+        "T"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "PEN",
+      "letters": [
+        "P",
+        "E",
+        "N"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "DOG",
+      "letters": [
+        "D",
+        "O",
+        "G"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "SUN",
+      "letters": [
+        "S",
+        "U",
+        "N"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "RED",
+      "letters": [
+        "R",
+        "E",
+        "D"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "LOG",
+      "letters": [
+        "L",
+        "O",
+        "G"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "OWL",
+      "letters": [
+        "O",
+        "W",
+        "L"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "AXE",
+      "letters": [
+        "A",
+        "X",
+        "E"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "ICE",
+      "letters": [
+        "I",
+        "C",
+        "E"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "USE",
+      "letters": [
+        "U",
+        "S",
+        "E"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "AGE",
+      "letters": [
+        "A",
+        "G",
+        "E"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "GUM",
+      "letters": [
+        "G",
+        "U",
+        "M"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "HUG",
+      "letters": [
+        "H",
+        "U",
+        "G"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "JAW",
+      "letters": [
+        "J",
+        "A",
+        "W"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "KEY",
+      "letters": [
+        "K",
+        "E",
+        "Y"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "OAK",
+      "letters": [
+        "O",
+        "A",
+        "K"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "RAN",
+      "letters": [
+        "R",
+        "A",
+        "N"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "TIN",
+      "letters": [
+        "T",
+        "I",
+        "N"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "WIG",
+      "letters": [
+        "W",
+        "I",
+        "G"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "ELF",
+      "letters": [
+        "E",
+        "L",
+        "F"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "GYM",
+      "letters": [
+        "G",
+        "Y",
+        "M"
+      ],
+      "group": "common",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "HAND",
+      "letters": [
+        "H",
+        "A",
+        "N",
+        "D"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "FISH",
+      "letters": [
+        "F",
+        "I",
+        "S",
+        "H"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "STAR",
+      "letters": [
+        "S",
+        "T",
+        "A",
+        "R"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "TASK",
+      "letters": [
+        "T",
+        "A",
+        "S",
+        "K"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "MARK",
+      "letters": [
+        "M",
+        "A",
+        "R",
+        "K"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "THEN",
+      "letters": [
+        "T",
+        "H",
+        "E",
+        "N"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "WORK",
+      "letters": [
+        "W",
+        "O",
+        "R",
+        "K"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "HOME",
+      "letters": [
+        "H",
+        "O",
+        "M",
+        "E"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "LOVE",
+      "letters": [
+        "L",
+        "O",
+        "V",
+        "E"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "FOUR",
+      "letters": [
+        "F",
+        "O",
+        "U",
+        "R"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "QUIT",
+      "letters": [
+        "Q",
+        "U",
+        "I",
+        "T"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "TYPE",
+      "letters": [
+        "T",
+        "Y",
+        "P",
+        "E"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "JOKE",
+      "letters": [
+        "J",
+        "O",
+        "K",
+        "E"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "WAVE",
+      "letters": [
+        "W",
+        "A",
+        "V",
+        "E"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "NEXT",
+      "letters": [
+        "N",
+        "E",
+        "X",
+        "T"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "GIVE",
+      "letters": [
+        "G",
+        "I",
+        "V",
+        "E"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "DEEP",
+      "letters": [
+        "D",
+        "E",
+        "E",
+        "P"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "ZINC",
+      "letters": [
+        "Z",
+        "I",
+        "N",
+        "C"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "JUMP",
+      "letters": [
+        "J",
+        "U",
+        "M",
+        "P"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "FLEX",
+      "letters": [
+        "F",
+        "L",
+        "E",
+        "X"
+      ],
+      "group": "medium",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "HELLO",
+      "letters": [
+        "H",
+        "E",
+        "L",
+        "L",
+        "O"
+      ],
+      "group": "long",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "WORLD",
+      "letters": [
+        "W",
+        "O",
+        "R",
+        "L",
+        "D"
+      ],
+      "group": "long",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "THUMB",
+      "letters": [
+        "T",
+        "H",
+        "U",
+        "M",
+        "B"
+      ],
+      "group": "long",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "NORTH",
+      "letters": [
+        "N",
+        "O",
+        "R",
+        "T",
+        "H"
+      ],
+      "group": "long",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "QUEST",
+      "letters": [
+        "Q",
+        "U",
+        "E",
+        "S",
+        "T"
+      ],
+      "group": "long",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "SEVEN",
+      "letters": [
+        "S",
+        "E",
+        "V",
+        "E",
+        "N"
+      ],
+      "group": "long",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "MIXER",
+      "letters": [
+        "M",
+        "I",
+        "X",
+        "E",
+        "R"
+      ],
+      "group": "long",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "SHARK",
+      "letters": [
+        "S",
+        "H",
+        "A",
+        "R",
+        "K"
+      ],
+      "group": "long",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "EXACT",
+      "letters": [
+        "E",
+        "X",
+        "A",
+        "C",
+        "T"
+      ],
+      "group": "long",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "NOVEL",
+      "letters": [
+        "N",
+        "O",
+        "V",
+        "E",
+        "L"
+      ],
+      "group": "long",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "QUICK",
+      "letters": [
+        "Q",
+        "U",
+        "I",
+        "C",
+        "K"
+      ],
+      "group": "long",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "SKETCH",
+      "letters": [
+        "S",
+        "K",
+        "E",
+        "T",
+        "C",
+        "H"
+      ],
+      "group": "long",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "FINGER",
+      "letters": [
+        "F",
+        "I",
+        "N",
+        "G",
+        "E",
+        "R"
+      ],
+      "group": "long",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "415",
+      "letters": [
+        "4",
+        "1",
+        "5"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-short",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "5551",
+      "letters": [
+        "5",
+        "5",
+        "5",
+        "1"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-mid",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "1234",
+      "letters": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-mid",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "911",
+      "letters": [
+        "9",
+        "1",
+        "1"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-short",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "119",
+      "letters": [
+        "1",
+        "1",
+        "9"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-short",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "0",
+      "letters": [
+        "0"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digit-single",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "9",
+      "letters": [
+        "9"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digit-single",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "42",
+      "letters": [
+        "4",
+        "2"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-two",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "100",
+      "letters": [
+        "1",
+        "0",
+        "0"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-hundred",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "2024",
+      "letters": [
+        "2",
+        "0",
+        "2",
+        "4"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-year",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "8888",
+      "letters": [
+        "8",
+        "8",
+        "8",
+        "8"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-repeat",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "1010",
+      "letters": [
+        "1",
+        "0",
+        "1",
+        "0"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-alt",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "12345",
+      "letters": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-long",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "98765",
+      "letters": [
+        "9",
+        "8",
+        "7",
+        "6",
+        "5"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-long",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "4399",
+      "letters": [
+        "4",
+        "3",
+        "9",
+        "9"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-mid",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "314",
+      "letters": [
+        "3",
+        "1",
+        "4"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-short",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "7890",
+      "letters": [
+        "7",
+        "8",
+        "9",
+        "0"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-mid",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "2025",
+      "letters": [
+        "2",
+        "0",
+        "2",
+        "5"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-year",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "5050",
+      "letters": [
+        "5",
+        "0",
+        "5",
+        "0"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-alt",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "67890",
+      "letters": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "0"
+      ],
+      "group": "phone",
+      "hint": "",
+      "confusion_test": "digits-long",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "GOOGLE",
+      "letters": [
+        "G",
+        "O",
+        "O",
+        "G",
+        "L",
+        "E"
+      ],
+      "group": "url",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "GITHUB",
+      "letters": [
+        "G",
+        "I",
+        "T",
+        "H",
+        "U",
+        "B"
+      ],
+      "group": "url",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "AMAZON",
+      "letters": [
+        "A",
+        "M",
+        "A",
+        "Z",
+        "O",
+        "N"
+      ],
+      "group": "url",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "WIFI",
+      "letters": [
+        "W",
+        "I",
+        "F",
+        "I"
+      ],
+      "group": "url",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "HTTP",
+      "letters": [
+        "H",
+        "T",
+        "T",
+        "P"
+      ],
+      "group": "url",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "APT3B",
+      "letters": [
+        "A",
+        "P",
+        "T",
+        "3",
+        "B"
+      ],
+      "group": "mixed",
+      "hint": "",
+      "confusion_test": "alpha-digit",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "UA247",
+      "letters": [
+        "U",
+        "A",
+        "2",
+        "4",
+        "7"
+      ],
+      "group": "mixed",
+      "hint": "",
+      "confusion_test": "alpha-digit",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "COVID19",
+      "letters": [
+        "C",
+        "O",
+        "V",
+        "I",
+        "D",
+        "1",
+        "9"
+      ],
+      "group": "mixed",
+      "hint": "",
+      "confusion_test": "alpha-digit",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "4G",
+      "letters": [
+        "4",
+        "G"
+      ],
+      "group": "mixed",
+      "hint": "",
+      "confusion_test": "digit-alpha",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "5G",
+      "letters": [
+        "5",
+        "G"
+      ],
+      "group": "mixed",
+      "hint": "",
+      "confusion_test": "digit-alpha",
+      "duration_ms": 0
+    },
+    {
+      "prompt": "MYNAME",
+      "letters": [
+        "M",
+        "Y",
+        "N",
+        "A",
+        "M",
+        "E"
+      ],
+      "group": "phrase",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "GOODJOB",
+      "letters": [
+        "G",
+        "O",
+        "O",
+        "D",
+        "J",
+        "O",
+        "B"
+      ],
+      "group": "phrase",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "SEEYOU",
+      "letters": [
+        "S",
+        "E",
+        "E",
+        "Y",
+        "O",
+        "U"
+      ],
+      "group": "phrase",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "HELPME",
+      "letters": [
+        "H",
+        "E",
+        "L",
+        "P",
+        "M",
+        "E"
+      ],
+      "group": "phrase",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "GOHOME",
+      "letters": [
+        "G",
+        "O",
+        "H",
+        "O",
+        "M",
+        "E"
+      ],
+      "group": "phrase",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "THANKYOU",
+      "letters": [
+        "T",
+        "H",
+        "A",
+        "N",
+        "K",
+        "Y",
+        "O",
+        "U"
+      ],
+      "group": "phrase",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "CALLME",
+      "letters": [
+        "C",
+        "A",
+        "L",
+        "L",
+        "M",
+        "E"
+      ],
+      "group": "phrase",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "NEWYORK",
+      "letters": [
+        "N",
+        "E",
+        "W",
+        "Y",
+        "O",
+        "R",
+        "K"
+      ],
+      "group": "phrase",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "GOODMORNING",
+      "letters": [
+        "G",
+        "O",
+        "O",
+        "D",
+        "M",
+        "O",
+        "R",
+        "N",
+        "I",
+        "N",
+        "G"
+      ],
+      "group": "phrase",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "HOWAREYOU",
+      "letters": [
+        "H",
+        "O",
+        "W",
+        "A",
+        "R",
+        "E",
+        "Y",
+        "O",
+        "U"
+      ],
+      "group": "phrase",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "NICEDAY",
+      "letters": [
+        "N",
+        "I",
+        "C",
+        "E",
+        "D",
+        "A",
+        "Y"
+      ],
+      "group": "phrase",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "COMEHERE",
+      "letters": [
+        "C",
+        "O",
+        "M",
+        "E",
+        "H",
+        "E",
+        "R",
+        "E"
+      ],
+      "group": "phrase",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "ILOVEYOU",
+      "letters": [
+        "I",
+        "L",
+        "O",
+        "V",
+        "E",
+        "Y",
+        "O",
+        "U"
+      ],
+      "group": "phrase",
+      "hint": "",
+      "confusion_test": null,
+      "duration_ms": 0
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.venv2/
+venv/
+env/
+
+# Local data and generated outputs
+tap_raw_accel_*.csv
+*.log
+outputs/
+svo_processing/outputs/
+
+# LaTeX build artifacts
+paper/build/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+
+# Android/Gradle local state
+spike_android/local.properties
+spike_android/.gradle/
+spike_android/build/
+spike_android/app/build/
+
+# PyInstaller/build products
+build/
+dist/
+*.spec~
+

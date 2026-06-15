@@ -1,0 +1,269 @@
+{
+  "id": "asl_alphabet",
+  "name": "ASL Alphabet (A–Z)",
+  "type": "gesture",
+  "builtin": true,
+  "description": "26 single-letter handshapes.",
+  "trials": [
+    {
+      "prompt": "A",
+      "letters": [
+        "A"
+      ],
+      "group": "alpha1",
+      "hint": "Fist with thumb on side",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "B",
+      "letters": [
+        "B"
+      ],
+      "group": "alpha1",
+      "hint": "Flat hand, fingers together, thumb tucked across palm",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "C",
+      "letters": [
+        "C"
+      ],
+      "group": "alpha1",
+      "hint": "Curved hand like holding a cup",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "D",
+      "letters": [
+        "D"
+      ],
+      "group": "alpha1",
+      "hint": "Index finger up, other fingers touch thumb in circle",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "E",
+      "letters": [
+        "E"
+      ],
+      "group": "alpha1",
+      "hint": "Fingers curled down, thumb tucked under fingers",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "F",
+      "letters": [
+        "F"
+      ],
+      "group": "alpha1",
+      "hint": "Index and thumb form circle, other 3 fingers up",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "G",
+      "letters": [
+        "G"
+      ],
+      "group": "alpha1",
+      "hint": "Fist with index finger and thumb pointing sideways",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "H",
+      "letters": [
+        "H"
+      ],
+      "group": "alpha1",
+      "hint": "Fist with index and middle finger pointing sideways",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "I",
+      "letters": [
+        "I"
+      ],
+      "group": "alpha1",
+      "hint": "Fist with pinky finger up",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "J",
+      "letters": [
+        "J"
+      ],
+      "group": "alpha2",
+      "hint": "Pinky up then trace J shape (dynamic, capture start pose)",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "K",
+      "letters": [
+        "K"
+      ],
+      "group": "alpha2",
+      "hint": "Index and middle finger up in V, thumb between them",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "L",
+      "letters": [
+        "L"
+      ],
+      "group": "alpha2",
+      "hint": "L-shape with index finger up and thumb out",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "M",
+      "letters": [
+        "M"
+      ],
+      "group": "alpha2",
+      "hint": "Three fingers over thumb in fist",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "N",
+      "letters": [
+        "N"
+      ],
+      "group": "alpha2",
+      "hint": "Two fingers over thumb in fist",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "O",
+      "letters": [
+        "O"
+      ],
+      "group": "alpha2",
+      "hint": "All fingers and thumb form O shape",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "P",
+      "letters": [
+        "P"
+      ],
+      "group": "alpha2",
+      "hint": "K-hand pointing down",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "Q",
+      "letters": [
+        "Q"
+      ],
+      "group": "alpha2",
+      "hint": "G-hand pointing down",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "R",
+      "letters": [
+        "R"
+      ],
+      "group": "alpha2",
+      "hint": "Crossed index and middle finger",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "S",
+      "letters": [
+        "S"
+      ],
+      "group": "alpha3",
+      "hint": "Fist with thumb over fingers",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "T",
+      "letters": [
+        "T"
+      ],
+      "group": "alpha3",
+      "hint": "Thumb between index and middle finger in fist",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "U",
+      "letters": [
+        "U"
+      ],
+      "group": "alpha3",
+      "hint": "Index and middle finger up together",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "V",
+      "letters": [
+        "V"
+      ],
+      "group": "alpha3",
+      "hint": "Index and middle finger up spread apart (peace sign)",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "W",
+      "letters": [
+        "W"
+      ],
+      "group": "alpha3",
+      "hint": "Index, middle, and ring finger up spread apart",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "X",
+      "letters": [
+        "X"
+      ],
+      "group": "alpha3",
+      "hint": "Index finger bent into hook",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "Y",
+      "letters": [
+        "Y"
+      ],
+      "group": "alpha3",
+      "hint": "Thumb and pinky out, other fingers down",
+      "confusion_test": null,
+      "duration_ms": 0
+    },
+    {
+      "prompt": "Z",
+      "letters": [
+        "Z"
+      ],
+      "group": "alpha3",
+      "hint": "Index finger draws Z shape (dynamic, capture start pose)",
+      "confusion_test": null,
+      "duration_ms": 0
+    }
+  ]
+}

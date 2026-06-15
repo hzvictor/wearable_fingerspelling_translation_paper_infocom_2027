@@ -1,0 +1,109 @@
+{
+  "id": "asl_digits",
+  "name": "ASL Digits (0-9)",
+  "type": "gesture",
+  "builtin": true,
+  "description": "10 static ASL digit gestures",
+  "trials": [
+    {
+      "id": "digit_0",
+      "orderIndex": 0,
+      "prompt": "0",
+      "expectedLetters": "0",
+      "hint": "O-shape with fingers and thumb",
+      "group": "digits",
+      "confusionTest": null,
+      "estimatedDurationMs": 2500
+    },
+    {
+      "id": "digit_1",
+      "orderIndex": 1,
+      "prompt": "1",
+      "expectedLetters": "1",
+      "hint": "Index finger up, others in fist",
+      "group": "digits",
+      "confusionTest": null,
+      "estimatedDurationMs": 2500
+    },
+    {
+      "id": "digit_2",
+      "orderIndex": 2,
+      "prompt": "2",
+      "expectedLetters": "2",
+      "hint": "Index and middle finger up spread (like V)",
+      "group": "digits",
+      "confusionTest": null,
+      "estimatedDurationMs": 2500
+    },
+    {
+      "id": "digit_3",
+      "orderIndex": 3,
+      "prompt": "3",
+      "expectedLetters": "3",
+      "hint": "Thumb, index, and middle finger up",
+      "group": "digits",
+      "confusionTest": null,
+      "estimatedDurationMs": 2500
+    },
+    {
+      "id": "digit_4",
+      "orderIndex": 4,
+      "prompt": "4",
+      "expectedLetters": "4",
+      "hint": "Four fingers up, thumb tucked",
+      "group": "digits",
+      "confusionTest": null,
+      "estimatedDurationMs": 2500
+    },
+    {
+      "id": "digit_5",
+      "orderIndex": 5,
+      "prompt": "5",
+      "expectedLetters": "5",
+      "hint": "All five fingers spread open",
+      "group": "digits",
+      "confusionTest": null,
+      "estimatedDurationMs": 2500
+    },
+    {
+      "id": "digit_6",
+      "orderIndex": 6,
+      "prompt": "6",
+      "expectedLetters": "6",
+      "hint": "Thumb and pinky touch, other fingers up",
+      "group": "digits",
+      "confusionTest": null,
+      "estimatedDurationMs": 2500
+    },
+    {
+      "id": "digit_7",
+      "orderIndex": 7,
+      "prompt": "7",
+      "expectedLetters": "7",
+      "hint": "Thumb and ring finger touch, other fingers up",
+      "group": "digits",
+      "confusionTest": null,
+      "estimatedDurationMs": 2500
+    },
+    {
+      "id": "digit_8",
+      "orderIndex": 8,
+      "prompt": "8",
+      "expectedLetters": "8",
+      "hint": "Thumb and middle finger touch, other fingers up",
+      "group": "digits",
+      "confusionTest": null,
+      "estimatedDurationMs": 2500
+    },
+    {
+      "id": "digit_9",
+      "orderIndex": 9,
+      "prompt": "9",
+      "expectedLetters": "9",
+      "hint": "Thumb and index finger touch, other fingers up",
+      "group": "digits",
+      "confusionTest": null,
+      "estimatedDurationMs": 2500
+    }
+  ]
+}
